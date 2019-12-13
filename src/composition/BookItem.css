@@ -1,0 +1,42 @@
+.bookItemContainer{
+    border-bottom:1px solid #d3d3d3;
+    width:100%;
+    display:flex;
+    padding:5px;
+    margin-top:10px;
+}
+
+.bookItemContainer img{
+    width:150px;
+    padding-right:5px;
+    height:50%;
+    margin-top:auto;
+}
+
+.description{
+    border:1px solid #e8e2e2;
+    overflow: scroll;
+    height:100px;
+    width:100%;
+}
+
+.bookInfo{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+
+.mainInfo{
+    width:60%;
+    margin-bottom:15px;
+}
+
+.mainInfo h2{
+    margin-bottom:15px;
+}
+
+.mainInfo p{
+    text-align:center;
+}

@@ -1,0 +1,19 @@
+.filtersContainer{
+    height:25px;
+    width:100%;
+    background-color:#dedede;
+    border-bottom: 1px solid #bfbfbf;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.filtersContainer form{
+    display:flex;
+    align-items:center;
+}
+
+.filtersContainer form select{
+    background-color:white;
+    border-bottom: 1px solid #bfbfbf;
+}
